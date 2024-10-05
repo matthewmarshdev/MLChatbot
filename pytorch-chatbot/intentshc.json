@@ -1,0 +1,113 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "How do you do?",
+          "Whats Up?",
+          "Good day"
+        ],
+        "responses": [
+          "Hello sir",
+          "Hello Ma'am",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Great!", "Fantastic Job", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Of course", "This was a great exchange"]
+      },
+      {
+        "tag": "claims",
+        "patterns": [
+            "I have a strange charge",
+            "I think I overpaid",
+            "I missed a payment",
+            "I need to pay for a procedure",
+            "I need to be updated on a claim",
+            "What are my procedure codes",
+            "The doctor needs to change the procedure code"
+        ],
+        "responses": [
+            "What procedure did you have?",
+            "What were you charged?",
+            "Did you expect those charges?",
+            "Were you inpatient?",
+            "Do you have your CPT Codes?"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal",
+          "We do not take cash",
+          "We do not accept bonds",
+          "We can help you with payments",
+          "There are many options for payment",
+          "We accept most insurance carriers",
+          "We can defer your payment"
+        ]
+      },
+      {
+        "tag": "eligibility",
+        "patterns": [
+          "Can I get this procedure?",
+          "How long does the procedure take?",
+          "When do I schedule a procedure?",
+          "Do you do this procedure often?",
+          "What is the average cost of the procedure?"
+        ],
+        "responses": [
+          "You can get this procedure",
+          "You might be eligible for this procedure",
+          "You have to get prequalification for this procedure",
+          "This is a normal procedure",
+          "We are competitively priced for this procedure,",
+          "This procedure takes 3-5 hours normally",
+          "This procedure has a low risk if injury"
+        ]
+      }
+      {
+        "tag": "reporting",
+        "patterns": [
+          "Please show me an Rx Claims report",
+          "What are our top 20 drugs in spend?",
+          "Are we overpaying for any drugs?",
+          "Should we push the generic of this drug?",
+          "Is there anything new coming out?"
+        ],
+        "responses": [
+          "Here is a standard Rx spend report",
+          "Here is top 20 drugs spend",
+          "What time period are you looking for?",
+          "It looks like you are overpaying for 14 drugs",
+          "there are a lot of new H-blockers on the market",
+          "Would you like to build a custom report?"
+        ]
+      }
+    ]
+  }
