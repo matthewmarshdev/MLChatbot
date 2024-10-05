@@ -2,15 +2,15 @@
 
 No license, open use to all, created by Matthew Marsh, 9/23/24
 
-# Packages needed to run code:
+# Packages needed to run code (pip preferred):
 
-numpy
-nltk
-nltk.download('punkt') --if necessary. Only needed once
-torch
-random
-json
-NeuralNet
+-numpy
+-nltk
+-nltk.download('punkt') --if necessary. Only needed once
+-torch
+-random
+-json
+-NeuralNet
 
 import instructions found in each file
 
